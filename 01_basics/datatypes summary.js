@@ -28,3 +28,24 @@ const heros= ["shaktiman","naagraj","doga"]
    
  console.log(typeof myfunction);
  
+ //stack(primitive),Heap(non - primitive)
+
+ //letmyyoutubename="hiteshchoduarydotcom"
+
+ //let anothername=myyoutubename
+ anothername="chaiaurcode"
+
+ //console.log(myyoutubename);
+ //console.log(anothername);
+ 
+    let userone={
+      email: "user@google.com",
+      upi:"user@ibl"
+    }
+     let usertwo=userone
+
+     usertwo.email="sourabh@google.com"
+     console.log(userone.email);
+     console.log(usertwo.email);
+     
+     
