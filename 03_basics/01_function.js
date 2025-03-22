@@ -30,5 +30,32 @@ function sayMyname(){
           return`${username} just logged in`
         }
          // console.log(loginuserMessage("sourabh"));
-            console.log(loginuserMessage("sourabh"));
+           // console.log(loginuserMessage("sourabh"));
             
+            function calculatecartprice(...num1){
+              return num1
+            }
+           // console.log(calculatecartprice(200,400,500));
+            
+           const user = {
+            username : "sourabh",
+            price:199
+           }
+              function handleobject(anyobject){
+                 console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+                 
+              }
+              // handleobject(user)
+              handleobject({
+                username:"sam",
+                price:399
+              })
+
+              const mynewarray = [200,400,100,600]
+              function returnsecondvalue(getarray){
+                return getarray[1]
+
+              }
+                  //console.log(returnsecondvalue(mynewarray));
+                  console.log(returnsecondvalue([200,400,500,600]));
+                  
