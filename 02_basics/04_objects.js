@@ -47,9 +47,34 @@ const tinderuser = {}
           users[1].email
           console.log(tinderuser);
           
-          console.log(Object.keys(tinderuser));
-          console.log(Object.values(tinderuser));
-          console.log(tinderuser.hasownproperty('isloggedIn'));
+        //  console.log(Object.keys(tinderuser));
+         // console.log(Object.values(tinderuser));
+         // console.log(tinderuser.hasownproperty('isloggedIn'));
           
           
-          
+            const course = {
+                coursename:"js in hindi",
+                price:"999",
+                courseInstructor:"hitesh"
+
+
+            }
+               //course.courseInstructor
+               //destruction
+               const{courseInstructor:instructor} = course
+                //console.log(courseInstructor);
+                console.log(instructor);
+
+               // {
+              //      "name":"hitesh",
+               //     "coursename":"js in hindi",
+                //    "price":"free"
+               // }
+                  [
+                    {},
+                    {},
+                    {}
+                    
+                  ]
+
+                
